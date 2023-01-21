@@ -25,7 +25,7 @@ export function HabitDay({
   }
 
   const completedPercentage =
-    amount > 0 ? Math.round((completed / amount) * 100) : 0
+    amount > 0 ? Math.round((completed * 100) / amount) : 0
 
   const dayAndMounth = dayjs(date).format('DD/MM')
   const dayOfWeek = dayjs(date).format('dddd')

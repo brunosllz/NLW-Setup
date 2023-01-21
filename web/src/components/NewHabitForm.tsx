@@ -24,7 +24,7 @@ export function NewHabitForm() {
       return
     }
 
-    await api.post('/habots', {
+    await api.post('/habits', {
       title,
       weekDays,
     })
