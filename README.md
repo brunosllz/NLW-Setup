@@ -8,25 +8,23 @@
   <a href="#-%EF%B8%8F-funcionalidades">Funcionalidades</a> •
   <a href="#--layout">Layout</a> •
   <a href="#--tecnologias">Tecnologias</a> •
-  <a href="#--milhas-a-mais">Milhas a mais</a> 
 </p>
 
 <br/>
 
-![](https://github.com/brunosllz/ignite-shop/blob/main/src/assets/cover-github.png)
+![](https://github.com/brunosllz/NLW-Setup/blob/main/assets/github-cover.png)
 
-## [](https://github.com/brunosllz/ignite-shop#--sobre-o-projeto) 💻 Sobre o projeto
+## [](https://github.com/brunosllz/NLW-Setup#--sobre-o-projeto) 💻 Sobre o projeto
 
-Projeto desenvolvido no Quarto desafio da trilha de ReactJS no Ignite da [Rocketseat](https://www.rocketseat.com.br/), o projeto de um e-commerce com intergração com o Stripe.
+Projeto desenvolvido durante o evento NLW Setup da [Rocketseat](https://www.rocketseat.com.br/), habit tracker, uma ferramenta de acompanhamento de hábitos para o usuário colocar em prática suas resoluções e metas, ou seja, registrar ações e acompanhar a evolução dos novos hábitos que deseja colocar na sua rotina, projeto fullstack desenvolvido desde o backend, até a sua versão web e mobile.
 
 ---
 
-## [](https://github.com/brunosllz/ignite-shop#-%EF%B8%8F-funcionalidades) ⚙️ Funcionalidades
+## [](https://github.com/brunosllz/NLW-Setup#-%EF%B8%8F-funcionalidades) ⚙️ Funcionalidades
 
-- Intergração com Stripe
-- Visualização dos produtos
-- Realização da compra intergrada ao Stripe
-- Utilização do carinho de compras para os produtos
+- Registrar nos hábitos
+- Acompanhamento dos hábitos
+- Integração web/mobile dos registro
 
 ---
 
@@ -34,20 +32,39 @@ Projeto desenvolvido no Quarto desafio da trilha de ReactJS no Ignite da [Rocket
 ```bash
 # Clone este repositório
 $ git clone https://github.com/brunosllz/ignite-shop.git
+
+```
+
+Web
+```bash
 # Instale as dependências
 $ npm install ou yarn
 # Execute a aplicação
 $ npm run dev ou yarn dev
-
 ```
+
+Mobile
+```bash
+# Instale as dependências
+$ npm install ou yarn
+# Execute a aplicação
+$ npx expo start
+```
+
+Server
+```bash
+# Instale as dependências
+$ npm install ou yarn
+# Execute a aplicação
+$ npm run dev ou yarn dev
+```
+
 
 ---
 
-## [](https://github.com/brunosllz/ignite-shop#--layout) 🔖 Layout
+## [](https://github.com/brunosllz/NLW-Setup#--layout) 🔖 Layout
 
- Aqui você pode visualizar um pouco do layout e funcionalidades da aplicação.
- 
- ![gif](https://github.com/brunosllz/ignite-shop/blob/main/src/assets/gif-github.gif)
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1195326661124171197). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 ---
 
@@ -56,17 +73,13 @@ $ npm run dev ou yarn dev
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - Vite
+- Tailwind
+- React
+- React Native
+- Expo
+- NodeJS
+- Fastify
+- Prisma
 - Typescript
-- TailwildCss
-- Stripe
-- Radix
-- React-toastify
+- React Hook Form
 
-
-> Veja o arquivo [package.json](https://github.com/brunosllz/ignite-shop/blob/main/package.json)
----
-
-## [](https://github.com/brunosllz/ignite-shop#--milhas-a-mais) 🚀 Milhas a mais 
-
-- [ ] Responsividade da aplicação
-- [ ] Implementar autenticação na aplicação
