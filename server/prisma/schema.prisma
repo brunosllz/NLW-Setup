@@ -14,13 +14,23 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model User {
+  id String @id
+
+  habit Habit[]
+
+  @@map("users")
+}
+
 model Habit {
   id         String   @id @default(uuid())
   title      String
   created_at DateTime @default(now())
+  user_id    String
 
   dayHabits DayHabit[]
   weekDays  HabitWeekDays[]
+  userId    User            @relation(fields: [user_id], references: [id])
 
   @@map("habits")
 }
